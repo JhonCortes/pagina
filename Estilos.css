@@ -2,31 +2,38 @@ table {
     border:1px solid #000000;
     border-collapse:collapse;
     width:1000px;
+    height: auto;
 }
 
 table td{
     border:1px solid #000000;
     padding:20px;
+    height: auto;
 }
 
 table td:hover{
     background:#adefff;
+    height: auto;
 }
 
 .Ciclomontañismo{
     width:400px;
+    height: auto;
 }
 
 .Futbolsala{
     width:400px;
+    height: auto;
 }
 
 .Videojuegos{
     width:400px;
+    height: auto;
 }
 
 .SeriesYpeliculas{
     width:400px;
+    height: auto;
 }
 
 .navegacionUL {
@@ -131,6 +138,6 @@ body{
 }
 
 .consulta video{
-    padding-inline-start: 350px;
-    padding-block-end: 40px;
+    width: 100%;
+    height: auto;
 }
