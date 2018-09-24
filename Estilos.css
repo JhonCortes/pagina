@@ -1,0 +1,126 @@
+table {
+    border:1px solid #000000;
+    border-collapse:collapse;
+    width:1000px;
+}
+
+table td{
+    border:1px solid #000000;
+    padding:20px;
+}
+
+table td:hover{
+    background:#adefff;
+}
+
+.Ciclomontañismo{
+    width:400px;
+}
+
+.Futbolsala{
+    width:400px;
+}
+
+.Videojuegos{
+    width:400px;
+}
+
+.SeriesYpeliculas{
+    width:400px;
+}
+
+.navegacionUL {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 163, 114);
+}
+
+.navegacionUL li{
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+.navegacionUL li:last-child {
+    border-right: none;
+}
+
+.navegacionUL li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navegacionUL li a:hover:not(.navegacionLI) {
+    background-color: #111;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+    padding: 10px;
+    background: #ebe9e9;
+    margin: 0;
+}
+
+.inicio{
+    background-color: #adefff;
+    padding: 20px;
+    text-align: center;
+}
+
+.pie-de-pagina{
+    background-color: #adefff;
+    padding: 10px;
+    text-align: center;
+}
+
+@media screen and (min-width: 780px) and (max-width: 1024px){
+    .inicio{
+        background-color: #adefff;
+    }
+
+    .pie-de-pagina{
+        background-color: #adefff;
+    }
+
+    .Contenido{
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 780px){
+    .inicio{
+        background-color: #adefff;
+    }
+
+    .pie-de-pagina{
+        background-color: #adefff;
+    }
+
+    .Contenido{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .inicio{
+        height: 80px;
+    }
+
+    .pie-de-pagina{
+        background-color: #adefff;
+    }
+
+    .Contenido{
+        width: 100%;
+    }
+}
