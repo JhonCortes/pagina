@@ -124,3 +124,13 @@ body{
         width: 100%;
     }
 }
+
+.consulta p{
+    padding: 10px;
+    width: 800px;
+}
+
+.consulta video{
+    padding-inline-start: 350px;
+    padding-block-end: 40px;
+}
